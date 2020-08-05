@@ -1,0 +1,126 @@
+.green {
+  color: #379683;
+}
+
+.slate-blue {
+  color: #7395AE;
+}
+
+.slate-dark {
+  color: #557A95;
+}
+
+.form-add {
+  justify-content: center;
+  display: flexbox;
+  flex-direction: row wrap;
+  
+}
+
+input {
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #5D5C61;
+  color: #5D5C61;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  margin: 2px 15px;
+  justify-content: center;
+
+}
+
+input[type=textarea] {
+  height: 200px;
+  width: 530px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #557A95;
+  background-color: snow;
+  color: #5D5C61;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+button[type=submit] {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+   border-radius: 15px;
+   border: 1px solid #5D5C61;
+   background-color: #B1A296;
+   color: snow;
+   width: 530px;
+   height: 30px;
+   padding-left: 10px;
+   margin: 2px 15px;
+}
+
+button[type=submit]:focus{
+  outline: none;
+  border: 1px solid #557A95;
+  color: snow;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+  margin: auto 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  background-color: #5D5C61;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+p.App-header {
+  margin: auto 0px;
+}
+
+.App-header {
+  font-family: 'Nova Square', cursive;
+  color: #63bba9;
+  font-size: 40px;
+  margin: auto 5px;
+}
+
+.nav {
+  justify-content: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: #379683;
+}
+
+.nav:hover {
+  color: #7395AE;
+}
+
+.nav:focus {
+  color: snow ;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
